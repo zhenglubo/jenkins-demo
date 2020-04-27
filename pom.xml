@@ -125,7 +125,7 @@
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-maven-plugin</artifactId>
                     <configuration>
-                        <mainClass>com.lixin.App</mainClass>
+                        <mainClass>com.lixin.JenkinsDemoApplication</mainClass>
                         <layout>ZIP</layout>
                     </configuration>
                     <executions>

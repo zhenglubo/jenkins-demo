@@ -10,10 +10,10 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  */
 @SpringBootApplication(scanBasePackages = "com.lixin")
 @EnableSwagger2
-public class App 
+public class JenkinsDemoApplication
 {
     public static void main( String[] args )
     {
-        SpringApplication.run(App.class,args);
+        SpringApplication.run(JenkinsDemoApplication.class,args);
     }
 }
