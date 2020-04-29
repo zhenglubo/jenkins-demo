@@ -42,5 +42,10 @@ public class UserController {
         user.setCreatedTime(LocalDateTime.now());
         return userService.save(user) ? DataResultBuilder.success() : DataResultBuilder.fail("新增用户失败");
     }
+
+    @PostMapping("/list")
+    public DataResult list(){
+        return null;
+    }
 }
 
